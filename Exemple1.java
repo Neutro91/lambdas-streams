@@ -147,7 +147,6 @@ public class Exemple1 {
     }
 
 
-
     public static void printPersonCotxe(List<Persona> llista, Predicat2<Persona,Cotxe> t, Cotxe c) {
         for(Persona a: llista) {
             if(t.test(a,c)) System.out.println(a + "\t" + c.getMarca());
